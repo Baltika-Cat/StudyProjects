@@ -1,0 +1,55 @@
+body {
+	font-size: small;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	line-height: 1.6em;
+}
+
+h1, h2 {
+	color: #007e7e;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 130%;
+}
+
+/*@media print or screen or (max-device-width: 481px) {*/
+/*Должны быть соблюдены все условия, указанные через "and"*/	
+	#guarantee {
+		border-style: dashed;
+		border-color: #ffffff;
+		border-top-width: 2px;
+		border-right-width: 2px;
+		border-bottom-width: 2px;
+		border-left-width: 2px; 
+		background-color: #a7cece;
+		margin-top: 30px;
+		margin-left: 30px;
+		margin-right: 250px;
+		margin-bottom: 30px;
+		padding-top: 25px;
+		padding-right: 25px;
+		padding-bottom: 25px;
+		padding-left: 80px; /*If paddings top, right, bottom and left are 
+							equil, we can write just "padding" for 
+							all sides without "-top", "-right", 
+							"-bottom" and "-left"*/
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-style: italic;
+		color: #444444;
+		line-height: 1.9em;
+		background-image: url(images/background.gif);
+		background-repeat: no-repeat;/*repeat-x - повторяет картинку по горизонтали
+		repeat-y - повторяет картинку по вертикали
+		repeat - повторяет о вертикали и по горизонтали
+		inherit - делает то же самое, что и родительский элемент*/
+		background-position: top left;
+		/*border-top-left-radius: 90px;
+		border-top-right-radius: 90px;
+		border-bottom-left-radius: 90px;
+		border-bottom-right-radius: 90px;*/
+	}
+}
